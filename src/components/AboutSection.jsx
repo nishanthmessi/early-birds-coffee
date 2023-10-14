@@ -1,7 +1,6 @@
 import ArrowRight from '../assets/svg/arrow-right.svg'
 import Product1 from '../assets/img/product-list-1.png'
 import Product2 from '../assets/img/product-list-2.png'
-import AboutBg from '../assets/img/about-sec-bg.png'
 
 const AboutSection = () => {
   const features = ['fairtrade', 'Organic', 'Climate neutral']
@@ -51,7 +50,7 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div className='flex justify-center items-center h-[752px] bg-about-bg bg-no-repeat'>
+      <div className='flex justify-center items-center h-[746px] bg-about-bg bg-no-repeat border-b border-primary'>
         <h1 className='text-[100px] text-white leading-[110px] tracking-[-2px] uppercase text-center w-[940px]'>
           More than just a coffee shop
         </h1>
