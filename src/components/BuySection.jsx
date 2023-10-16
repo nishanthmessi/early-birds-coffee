@@ -41,9 +41,9 @@ const BuySection = () => {
           <div className='relative h-[582.5px] w-[478.75px] px-[42px] py-[40px] border-r border-primary'>
             {product.status ? (
               <p
-                className={`absolute right-0 w-[67px] text-[18px] leading-[18px] tracking-[0.18px] uppercase bg-yellow-400 px-[18px] py-[4px] ${
+                className={`absolute right-0 w-[67px] text-[18px] leading-[18px] tracking-[0.18px] uppercase  px-[18px] py-[4px] ${
                   product.status === 'new'
-                    ? 'bg-yellow'
+                    ? 'bg-[#FBED81]'
                     : 'bg-primary text-white'
                 }`}
               >

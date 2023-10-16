@@ -4,6 +4,7 @@ import AboutSection from './components/AboutSection'
 import ReviewSection from './components/ReviewSection'
 import ShopSection from './components/ShopSection'
 import BuySection from './components/BuySection'
+import MenuSection from './components/MenuSection'
 import ReserveSection from './components/ReserveSection'
 import TeamSection from './components/TeamSection'
 import BlogSection from './components/BlogSection'
@@ -21,6 +22,7 @@ const App = () => {
       <ReviewSection />
       <ShopSection />
       <BuySection />
+      <MenuSection />
       <ReserveSection />
       <TeamSection />
       <BlogSection />
