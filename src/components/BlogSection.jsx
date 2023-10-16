@@ -32,7 +32,7 @@ const BlogSection = () => {
     <div className='flex border-b border-primary'>
       <div className='flex flex-col justify-between items-start py-[65px] pl-[60px] w-[777px] border-r border-primary'>
         <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase w-[484px]'>
-          Recent blog posts explore
+          Recent blog posts to explore
         </h1>
         <button className='text-[17px] text-white leading-[17px] tracking-[1.36px] uppercase px-[34px] py-[22px] bg-button-bg bg-primary'>
           Read all news
