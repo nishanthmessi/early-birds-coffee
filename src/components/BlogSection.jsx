@@ -46,7 +46,7 @@ const BlogSection = () => {
               alt='banner-img'
               className='h-[295px] w-[440px] object-cover rounded-lg'
             />
-            <div className='flex flex-col justify-between py-[19px]'>
+            <div className='flex flex-col justify-between items-start py-[19px]'>
               <div>
                 <p className='flex items-center space-mono text-[18px] leading-[24px]'>
                   <span>{blog.publishedOn}</span> |<span>{blog.type}</span>
