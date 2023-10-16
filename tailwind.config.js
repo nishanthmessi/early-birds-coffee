@@ -10,6 +10,7 @@ export default {
       backgroundImage: {
         'hero-pattern': "url('./src/assets/img/hero-pattern.png')",
         'about-bg': "url('./src/assets/img/about-sec-bg.png')",
+        'button-bg': "url('./src/assets/svg/button-bg.svg')",
       },
     },
   },
