@@ -32,7 +32,7 @@ const BuySection = () => {
   ]
 
   return (
-    <div className='h-[750px]'>
+    <div className='h-[746px]'>
       <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase py-[40px] pl-[50px] border-y border-primary'>
         The coffee that's right for you
       </h1>
