@@ -19,7 +19,7 @@ const BuySection = () => {
     },
     {
       productName: 'Costa Rica',
-      cost: 30,
+      cost: 36,
       img: Product3,
       status: null,
     },
@@ -38,15 +38,28 @@ const BuySection = () => {
       </h1>
       <div className='flex border-b border-primary'>
         {productData.map((product) => (
-          <div className='h-[582.5px] w-[478.75px] px-[42px] py-[40px] border-r border-primary'>
-            <div className='w-[67px]'>
-              <p className='text-[18px] leading-[18px] tracking-[0.18px] uppercase bg-yellow-400 px-[18px] py-[4px]'>
-                {product.status === null ? '' : product.status}
+          <div className='relative h-[582.5px] w-[478.75px] px-[42px] py-[40px] border-r border-primary'>
+            {product.status ? (
+              <p
+                className={`absolute right-0 w-[67px] text-[18px] leading-[18px] tracking-[0.18px] uppercase bg-yellow-400 px-[18px] py-[4px] ${
+                  product.status === 'new'
+                    ? 'bg-yellow'
+                    : 'bg-primary text-white'
+                }`}
+              >
+                {product.status}
               </p>
-            </div>
+            ) : null}
+            {/* <p className='absolute right-0 w-[67px] text-[18px] leading-[18px] tracking-[0.18px] uppercase bg-yellow-400 px-[18px] py-[4px]'>
+              {product.status === null ? <></> : product.status}
+            </p> */}
 
-            <img src={product.img} alt='' className='h-[410px] w-[394px]' />
-            <h1 className='text-[25px] leading-[30px] tracking-[.5px] uppercase'>
+            <img
+              src={product.img}
+              alt='product-img'
+              className='h-[410px] w-[394px]'
+            />
+            <h1 className='text-[25px] leading-[30px] tracking-[.5px] uppercase mt-10'>
               {product.productName}
             </h1>
             <p className='space-mono'>${product.cost}.00</p>
