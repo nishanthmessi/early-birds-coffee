@@ -17,7 +17,7 @@ const AboutSection = () => {
           </>
         ))}
       </div>
-      <div className='flex items-center h-[583px] border-b border-primary bg-[#fdf1d9]'>
+      <div className='flex items-center h-[583px] border-b border-primary bg-secondary'>
         <div className='flex flex-col items-start gap-[26px] ml-[93px] w-[860px]'>
           <p className='text-[50px] leading-[60px] uppercase w-[782px]'>
             Our blends deliver on the promise of balance and consistency roasted

@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: '#202020',
+        secondary: '#fdf1d9',
       },
       backgroundImage: {
         'hero-pattern': "url('./src/assets/img/hero-pattern.png')",
