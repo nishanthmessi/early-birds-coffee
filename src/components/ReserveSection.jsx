@@ -2,7 +2,7 @@ import React from 'react'
 
 const ReserveSection = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-[60px] h-[460px] bg-hero-pattern'>
+    <div className='flex flex-col justify-center items-center gap-[60px] h-[460px] bg-hero-pattern border-b border-primary'>
       <h1 className='text-[50px] leading-[60px] tracking-[1px] uppercase'>
         Reserve your table
       </h1>
