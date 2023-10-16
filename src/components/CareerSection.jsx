@@ -2,7 +2,7 @@ import CoffeeMaking from '../assets/img/latte-making.png'
 
 const CareerSection = () => {
   return (
-    <div className='flex justify-center items-center gap-[54px] h-[925px] bg-alter py-[138px] pr-[118px]'>
+    <div className='flex justify-center items-center gap-[54px] h-[925px] bg-alter py-[138px] pr-[118px] border-b border-primary'>
       <img
         src={CoffeeMaking}
         alt='making-img'
