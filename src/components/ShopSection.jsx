@@ -2,33 +2,19 @@ import Shop1 from '../assets/img/shop-1.png'
 
 const ShopSection = () => {
   return (
-    <div className='flex h-[980px] bg-[#f8f8f8]'>
-      {/* <div className='flex text-[50px]'>
-        <div className='relative w-[380px] inline-block h-[980px]'>
-          <h1 className='absolute left-0 bottom-0 border-y rotate-[270deg] -ml-[150px]'>
-            Lisbon Coffee Salon
-          </h1>
-        </div>
-        <div className='relative w-[380px] inline-block h-[980px]'>
-          <h1 className='absolute left-0 bottom-0 border-y rotate-[270deg] -ml-[150px]'>
-            Lisbon Coffee Salon
-          </h1>
-        </div>
-        <div className='relative w-[380px] inline-block h-[980px]'>
-          <h1 className='absolute left-0 bottom-0 border-y rotate-[270deg] -ml-[150px]'>
-            Lisbon Coffee Salon
-          </h1>
-        </div>
+    <div className='flex items-center h-[980px] bg-[#f8f8f8]'>
+      <div className='flex flex-col justify-center gap-20 w-[380px] h-[980px] pl-10'>
+        <h1 className='text-[50px] border-y'>Lisbon Coffee Salon</h1>
+        <h1 className='text-[50px] border-y'>Berlin Coffee Roastery</h1>
+        <h1 className='text-[50px] border-y'>Amsterdam Coffee Shop</h1>
+      </div>
 
-        <div className='flex flex-col justify-end items-center'>
-          <h1 className='border-y -rotate-90'>Berlin Coffee Roastery</h1>
-        </div>
-        <div className='flex flex-col justify-end items-center'>
-          <h1 className='border-y -rotate-90'>Amsterdam Coffee Shop</h1>
-        </div>
-      </div> */}
-      <div className='flex gap-[60px] h-[900px] w-[1492px] px-[60px] py-[39.5px]'>
-        <img src={Shop1} alt='' className='h-[781px] w-[960px] object-cover' />
+      <div className='flex items-center gap-[60px] h-[900px] w-[1492px] px-[60px] py-[39.5px]'>
+        <img
+          src={Shop1}
+          alt='shop-img'
+          className='h-[781px] w-[960px] object-cover'
+        />
         <div>
           <h1 className='text-[25px] leading-[30px] tracking-[0.5px] mb-[24px] w-[352px]'>
             Amsterdam Centre Coffee
