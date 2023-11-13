@@ -6,7 +6,7 @@ const ReserveSection = () => {
       <h1 className='text-[50px] leading-[60px] tracking-[1px] uppercase'>
         Reserve your table
       </h1>
-      <div className='flex gap-[35px]'>
+      <div className='flex flex-col sm:flex-row gap-[35px]'>
         <select name='' className='w-[345px] space-mono'>
           <option value='1 person' defaultValue='1 person'>
             1 Person

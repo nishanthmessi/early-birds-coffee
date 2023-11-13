@@ -40,17 +40,17 @@ const TeamSection = () => {
   ]
 
   return (
-    <div className='h-[620px] border-b border-primary'>
-      <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase pl-[50px] py-[40px] border-b border-primary'>
+    <div className='h-auto sm:h-[620px] border-b border-primary'>
+      <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase pl-[20px] sm:pl-[50px] py-[40px] border-b border-primary'>
         Our awesome team
       </h1>
-      <div className='flex px-4'>
+      <div className='flex flex-col items-center sm:flex-row px-4 w-auto'>
         {teamMembers.map((teamMember) => (
-          <div className='flex flex-col justify-center w-[320px] h-[458px] p-[28px] border-r border-primary last:border-r-0'>
+          <div className='flex flex-col justify-center w-auto sm:w-[320px] h-[458px] p-[28px] border-b sm:border-r border-primary last:border-r-0'>
             <img
               src={teamMember.imageUrl}
               alt='team-member'
-              className='h-[304px] w-[245px] object-cover rounded-lg bg-blue-200 mb-[15px]'
+              className='h-[304px] w-[400px] sm:w-[245px] object-cover rounded-lg bg-blue-200 mb-[15px]'
             />
             <h1 className='text-[25px] leading-[30px] tracking-[.5px] uppercase'>
               {teamMember.name}

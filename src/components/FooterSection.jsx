@@ -2,7 +2,7 @@ import FooterLogo from '../assets/img/footer-logo.png'
 
 const FooterSection = () => {
   return (
-    <div className='flex gap-[506px] items-center h-[250px] px-[70px] border-t border-primary'>
+    <div className='flex flex-col sm:flex-row gap-10 sm:gap-[506px] items-center h-[250px] px-[70px] pt-10 sm:pt-0 border-t border-primary'>
       <div className='flex gap-10'>
         <img
           src={FooterLogo}
@@ -21,7 +21,7 @@ const FooterSection = () => {
           </span>
         </h1>
       </div>
-      <div className='flex gap-[340px] space-mono'>
+      <div className='flex gap-[80px] sm:gap-[340px] space-mono pb-10 sm:pb-10'>
         <ul>
           <li>My Account</li>
           <li>Checkout</li>

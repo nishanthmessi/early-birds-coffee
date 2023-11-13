@@ -2,17 +2,17 @@ import CoffeeMaking from '../assets/img/latte-making.png'
 
 const CareerSection = () => {
   return (
-    <div className='flex justify-center items-center gap-[54px] h-[925px] bg-alter py-[138px] pr-[118px] border-b border-primary'>
+    <div className='flex flex-col sm:flex-row justify-center items-center gap-[54px] h-[925px] bg-alter py-[138px] sm:pr-[118px] border-b border-primary'>
       <img
         src={CoffeeMaking}
         alt='making-img'
-        className='h-[650px] w-[1133px] rounded-[10px] object-cover'
+        className='h-[650px] w-[1133px] sm:rounded-[10px] object-cover'
       />
-      <div className='flex flex-col items-start pl-[80px]'>
+      <div className='flex flex-col items-start px-10 sm:px-0 sm:pl-[80px]'>
         <h1 className='text-[35px] leading-[45px] tracking-[.7px] uppercase mb-[12px]'>
           Barista Schools & Careers
         </h1>
-        <p className='text-[18px] leading-[24px] space-mono w-[408px] mb-[58px]'>
+        <p className='text-[18px] leading-[24px] space-mono w-auto sm:w-[408px] mb-[58px]'>
           We host courses covering everything from simple home brewing
           techniques to advanced latte art to allow you to learn the essential
           life skill of how to make truly great coffee.

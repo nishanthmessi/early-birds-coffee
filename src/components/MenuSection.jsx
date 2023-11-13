@@ -22,16 +22,16 @@ const MenuSection = () => {
   ]
 
   return (
-    <div className='flex h-[769px] bg-secondary border-b border-primary'>
-      <div className='flex flex-col justify-start gap-[233px] pl-[50px] pt-[50px] border-r border-primary w-[796px]'>
-        <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase w-[604px]'>
+    <div className='flex flex-col sm:flex-row h-auto sm:h-[769px] bg-secondary border-b border-primary'>
+      <div className='flex flex-col justify-start gap-[60px] sm:gap-[233px] pl-[50px] pt-[50px] border-r border-primary w-auto sm:w-[796px]'>
+        <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase w-auto sm:w-[604px]'>
           Swing by our place we also love food
         </h1>
         <img src={FoodImg} alt='food-img' className='h-[237px] w-[315px]' />
       </div>
       <div className='flex flex-col'>
         {features.map((feature) => (
-          <div className='flex justify-between py-[50px] px-[58px] w-[1123px] border-b border-primary last:border-b-0'>
+          <div className='flex flex-col sm:flex-row gap-10 sm:gap-0 justify-between py-[50px] px-[58px] w-auto sm:w-[1123px] border-b border-primary last:border-b-0'>
             <div>
               <h1 className='text-[35px] leading-[45px] tracking-[0.7px] uppercase'>
                 {feature.title}

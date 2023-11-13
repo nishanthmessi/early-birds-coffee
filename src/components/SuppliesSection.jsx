@@ -45,17 +45,17 @@ const SuppliesSection = () => {
       <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase pl-[50px] py-[60px] border-b border-primary w-full'>
         our trusted supplies
       </h1>
-      <div className='flex border-b border-primary w-full'>
+      <div className='flex flex-col sm:flex-row sm:border-b border-primary w-full'>
         {supplies.map((supply, index) => (
-          <div className='flex justify-center items-center h-[311px] w-[374px] border-r border-primary last:border-r-0'>
+          <div className='flex justify-center items-center h-[311px] w-auto sm:w-[374px] border-b sm:border-r border-primary last:border-r-0'>
             <img key={index} src={supply} alt='supply-img' className='' />
           </div>
         ))}
       </div>
-      <div className='grid grid-cols-2 items-center justify-items-center h-[692px] border-b border-primary'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 items-center justify-items-center px-4 sm:px-0 h-[692px] w-full sm:w-auto border-b border-primary'>
         <div>
           {menuList.map((menu) => (
-            <div className='flex justify-between items-center mb-[27px] w-[614px]'>
+            <div className='flex justify-between items-center mb-[27px] w-auto sm:w-[614px]'>
               <h1 className='flex flex-col text-[20px] leading-[25px] tracking-[.8px] uppercase'>
                 {menu.name} ...............
                 <span className='text-[18px] leading-[24px] space-mono'>
@@ -68,7 +68,7 @@ const SuppliesSection = () => {
             </div>
           ))}
         </div>
-        <div className='flex justify-center items-center h-full w-[952px] bg-suppy-banner bg-no-repeat border-l border-primary'>
+        <div className='hidden sm:flex justify-center items-center h-full w-auto sm:w-[952px] bg-suppy-banner bg-no-repeat border-l border-primary'>
           <p className='text-[110px] leading-[75px] tracking-[-4px] text-[#FBED81]'>
             Our coffee
           </p>

@@ -24,11 +24,11 @@ const FollowSection = () => {
   ]
 
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-auto'>
       <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] py-[34px] border-b border-primary pl-[50px]'>
         Follow us for more
       </h1>
-      <div className='grid grid-cols-5 gap-[24px] p-[40px]'>
+      <div className='grid grid-cols-1 sm:grid-cols-5 gap-[24px] p-[40px]'>
         {followBanners.map((banner) => (
           <img
             src={banner}

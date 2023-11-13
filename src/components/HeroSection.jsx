@@ -21,7 +21,7 @@ const HeroSection = () => {
           <img
             src={TextImg}
             alt=''
-            className='ml-[40px] lg:ml-[84px] -mt-[140px] lg:-mt-[62px]'
+            className=' sm:ml-[40px] lg:ml-[84px] -mt-[140px] lg:-mt-[62px]'
           />
         </div>
       </div>

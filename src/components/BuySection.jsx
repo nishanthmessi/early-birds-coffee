@@ -32,13 +32,13 @@ const BuySection = () => {
   ]
 
   return (
-    <div className='h-[745px]'>
+    <div className='h-auto md:h-[745px]'>
       <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase py-[40px] pl-[50px] border-y border-primary'>
         The coffee that's right for you
       </h1>
-      <div className='flex border-b border-primary'>
+      <div className='flex flex-col sm:flex-row border-b border-primary'>
         {productData.map((product) => (
-          <div className='relative h-[582.5px] w-[478.75px] px-[42px] py-[40px] border-r border-primary'>
+          <div className='relative h-[582.5px] w-auto sm:w-[478.75px] px-[42px] py-[40px] border-b sm:border-r border-primary'>
             {product.status ? (
               <p
                 className={`absolute right-0 w-[67px] text-[18px] leading-[18px] tracking-[0.18px] uppercase  px-[18px] py-[4px] ${

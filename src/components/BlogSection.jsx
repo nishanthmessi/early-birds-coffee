@@ -29,9 +29,9 @@ const BlogSection = () => {
   ]
 
   return (
-    <div className='flex border-b border-primary'>
-      <div className='flex flex-col justify-between items-start py-[65px] pl-[60px] w-[777px] border-r border-primary'>
-        <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase w-[484px]'>
+    <div className='flex flex-col sm:flex-row border-b border-primary'>
+      <div className='flex flex-col justify-between items-start py-[65px] pl-[60px] gap-10 sm:gap-0 w-auto sm:w-[777px] border-r border-primary'>
+        <h1 className='text-[70px] leading-[80px] tracking-[-1.4px] uppercase w-auto sm:w-[484px]'>
           Recent blog posts to explore
         </h1>
         <button className='text-[17px] text-white leading-[17px] tracking-[1.36px] uppercase px-[34px] py-[22px] bg-button-bg bg-primary'>
@@ -40,7 +40,7 @@ const BlogSection = () => {
       </div>
       <div className='flex flex-col'>
         {blogData.map((blog) => (
-          <div className='flex gap-[44px] p-[48px] border-b border-primary last:border-b-0'>
+          <div className='flex flex-col sm:flex-row gap-[44px] p-[48px] border-b border-primary last:border-b-0'>
             <img
               src={blog.bannerUrl}
               alt='banner-img'

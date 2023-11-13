@@ -3,8 +3,8 @@ import StarSvg from '../assets/svg/star.svg'
 
 const ReviewSection = () => {
   return (
-    <div className='flex h-[878px] border-b border-primary'>
-      <div className='flex flex-col justify-center items-center px-[100px] w-[960px]'>
+    <div className='flex flex-col sm:flex-row gap-10 sm:gap-0 h-[878px] border-b border-primary pt-10 sm:pt-0'>
+      <div className='flex flex-col justify-center items-center px-[30px] sm:px-[100px] w-auto md:w-[960px]'>
         <span className='flex gap-[3px] mb-6'>
           <img src={StarSvg} alt='' className='' />
           <img src={StarSvg} alt='' className='' />
